@@ -1,6 +1,7 @@
 symbols		Name				Meaning
 ""			double quote		use for before and after string
 ''			single quote		same principal as double quote
+"""			triple quote		anything within two triple quote is plain text
 !			exclamation mark	感叹号
 .			full stop			句号
 '			apostrophe			撇号
@@ -18,6 +19,7 @@ symbols		Name				Meaning
 =			equal				define variables or names
 _			underscore			下划线
 ,			comma				If a line end with a comma means this line is unfinished, the next line is following this line.
+()			Bracket				括号
 
 
 Escape	sequences 		meaning
@@ -30,4 +32,8 @@ pirnt		printing, output information.
 False		negative
 raw_input()	ask the user to input string
 from		import something from standard python features
-import		
+import		unpacking something from python
+argv		argument variable, the first argument is scrpit, the second and later one is the string that carry from bash or cmd.
+open()		open a file
+.read()		read a file
+.truncate()	delete the contents of a file
