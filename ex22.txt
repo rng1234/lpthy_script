@@ -1,0 +1,33 @@
+symbols		Name				Meaning
+""			double quote		use for before and after string
+''			single quote		same principal as double quote
+!			exclamation mark	感叹号
+.			full stop			句号
+'			apostrophe			撇号
+#			number sign			If a line starting with #, this line is a Comments line
+:			colon				冒号
++			plus				加
+-			minus				减
+*			asterisk			乘
+/			slash				除
+%			percent				百分号, or as before a 's' to identify a string, a 'd' for a digit, 'r' for anything.  
+<			less than			小于
+>			greater than		大于
+<=			less-than-equal		小于或等于
+>=			greater-than-equal	大于或等于
+=			equal				define variables or names
+_			underscore			下划线
+,			comma				If a line end with a comma means this line is unfinished, the next line is following this line.
+
+
+Escape	sequences 		meaning
+\n						换行
+\'						'
+
+
+Word		Meaning
+pirnt		printing, output information.
+False		negative
+raw_input()	ask the user to input string
+from		import something from standard python features
+import		
