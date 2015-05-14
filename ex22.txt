@@ -25,6 +25,7 @@ _			underscore			下划线
 Escape	sequences 		meaning
 \n						换行
 \'						'
+\t						tab
 
 
 Word		Meaning
@@ -33,7 +34,17 @@ False		negative
 raw_input()	ask the user to input string
 from		import something from standard python features
 import		unpacking something from python
-argv		argument variable, the first argument is scrpit, the second and later one is the string that carry from bash or cmd.
 open()		open a file
 .read()		read a file
 .truncate()	delete the contents of a file
+.close()	close a file
+.write()	write something into a file
+def			define a name to a function set
+seek()		to locate specific position of a file
+return		return something when a function finished
+
+
+module	functions
+sys		argv		argument variable, the first argument is scrpit, the second and later one is the string that carry from bash or cmd.
+os.path	exists		check a file exist or not
+
